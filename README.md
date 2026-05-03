@@ -1,6 +1,6 @@
 # OrangeHRM Test Automation with Cypress
 
-Proyek ini adalah otomasi pengujian untuk fitur **Login** dan **Forgot Password** pada aplikasi OrangeHRM menggunakan **Cypress Framework**. Pengujian ini mencakup skenario positif dan negatif untuk memastikan keamanan dan fungsionalitas sistem.
+Proyek ini adalah otomasi pengujian untuk fitur **Login** pada aplikasi OrangeHRM menggunakan **Cypress Framework**. Pengujian ini mencakup skenario positif dan negatif untuk memastikan keamanan dan fungsionalitas sistem.
 
 ## 📋 Requirement
 Sebelum menjalankan pengujian, pastikan Anda telah menginstal:
