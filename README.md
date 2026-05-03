@@ -7,12 +7,13 @@ Sebelum menjalankan pengujian, pastikan Anda telah menginstal:
 * [Node.js](https://nodejs.org/) (Versi terbaru direkomendasikan)
 * [Cypress](https://www.cypress.io/)
 
-## 🧪 Skenario Pengujian (Test Cases)
-Berikut adalah daftar skenario yang diuji dalam proyek ini:
-ID,Judul Test Case,Tipe,Action Utama,Assertion Utama
-TC-01,Login Valid,Positive,".type(), .click()",URL include /dashboard
-TC-02,Login Password Salah,Negative,".type(), .click()","Msg: ""Invalid credentials"""
-TC-03,Login Username Salah,Negative,".type(), .click()","Msg: ""Invalid credentials"""
-TC-04,Username Kosong,Negative,.click(),"Msg: ""Required"""
-TC-05,Password Kosong,Negative,".type(), .click()","Msg: ""Required"""
-TC-06,Kedua Field Kosong,Negative,.click(),"Dual Msg: ""Required"""
+### 🧪 Skenario Pengujian (Test Cases)
+
+| ID | Judul Test Case | Skenario | Action Utama (Interaksi) | Assertion Utama (Ekspektasi) |
+| :-- | :--- | :--- | :--- | :--- |
+| **TC-01** | **Login Valid** | Login menggunakan kredensial yang terdaftar. | `.type()`, `.click()` | URL mengandung `/dashboard` |
+| **TC-02** | **Invalid Password** | Login dengan password yang salah. | `.type()`, `.click()` | Alert berisi "Invalid credentials" |
+| **TC-03** | **Invalid Username** | Login dengan username yang tidak terdaftar. | `.type()`, `.click()` | Alert berisi "Invalid credentials" |
+| **TC-04** | **Empty Username** | Mengosongkan field username saat login. | `.click()` | Pesan error "Required" muncul |
+| **TC-05** | **Empty Password** | Mengosongkan field password saat login. | `.type()`, `.click()` | Pesan error "Required" muncul |
+| **TC-06** | **Empty Fields** | Mengosongkan kedua field (User & Pass). | `.click()` | Dua pesan "Required" ditampilkan |
