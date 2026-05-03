@@ -4,12 +4,12 @@ Proyek ini adalah otomasi pengujian untuk fitur **Login** dan **Forgot Password*
 
 ## 📋 Requirement
 Sebelum menjalankan pengujian, pastikan Anda telah menginstal:
-* [Node.js](https://nodejs.org/) (Versi terbaru direkomendasikan)
+* [Node.js](https://nodejs.org/)
 * [Cypress](https://www.cypress.io/)
 
 ### 🧪 Skenario Pengujian (Test Cases)
 
-| ID | Judul Test Case | Skenario | Action Utama (Interaksi) | Assertion Utama (Ekspektasi) |
+| ID | Judul Test Case | Skenario | Action | Assertion |
 | :-- | :--- | :--- | :--- | :--- |
 | **TC-01** | **Login Valid** | Login menggunakan kredensial yang terdaftar. | `.type()`, `.click()` | URL mengandung `/dashboard` |
 | **TC-02** | **Invalid Password** | Login dengan password yang salah. | `.type()`, `.click()` | Alert berisi "Invalid credentials" |
