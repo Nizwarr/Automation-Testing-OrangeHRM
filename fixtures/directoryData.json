@@ -1,0 +1,26 @@
+{
+  "loginData": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+
+  "validEmployee": {
+    "employeeName": "Orange"
+  },
+
+  "invalidEmployee": {
+    "employeeName": "xyzabc123"
+  },
+
+  "jobTitle1": {
+    "title": "Automaton Tester"
+  },
+
+  "jobTitle2": {
+    "title": "Content Specialist"
+  },
+
+  "location": {
+    "name": "Canadian Regional HQ"
+  }
+}
